@@ -35,9 +35,9 @@ body{
      align-items: center;
  }
  .descripcion p{
-     color: red;
-     margin: 0 5px;
-     font-size: 1.5em;
+     color: lime;
+     margin: 0 2px;
+     font-size: 1.2em;
      text-shadow: 0 0 10px orangered;
  }
 
