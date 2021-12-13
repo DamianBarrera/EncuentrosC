@@ -1,334 +1,278 @@
-/* **************MediasQuerys*********************** */
-@media screen and (max-width:751px){
+
+
+
+/* **********  1440 *************** *******************************/
+@media screen and (min-width:1440px){
     .descripcion p{
-    font-size: 1em;
-
-    }  
-   .descripcion p:nth-child(6),
-   .descripcion p:nth-child(7){
-       display: none;
-   }
-   
-   .guia h2{
-       font-size: 2em;
-       letter-spacing: 1px;
-   }
-   nav ul li {
-    margin: 0 1em;
-}
-   nav ul li a {
-       font-size: 1.8em;
-       letter-spacing: 1px;
-   }
-   .mini{
-       width: 40px;
-       height: 40px;
-  }
-
-   .galeria {
-       padding: 15px;
-       display: grid;
-       grid-template-columns: repeat(auto-fill,minmax(15%, 1fr));
-       grid-gap: 15px;
-   }
-   
-   .card{
-       margin-bottom: 2em;     
-       
-   }
-
-   .name{
-       font-size: 1em;
-       letter-spacing: 1.1px;
-   }
-
-
-   .derechos , 
-   .derechos a {
-       font-size: 1.2em;
-       line-height: 1.3em;
-   }
-  }
-   /* ************521px****************** */
-@media screen and (max-width:521px){
-    
-    .descripcion p{
-        font-size: .8em;
-        margin: 0 2px;
-        } 
-        .descripcion p:nth-child(5){
-            display: none;
-        }
-
-        .guia{
-            height: 20px;
-        }
-        .guia h2{
-            font-size: 1.3em;
-        }
-         nav{
-          border-bottom: 3px solid #a40ea3;
-    }
-        nav ul li {
-            margin: 0 .6em;
-    }
-    nav ul li a {
-        font-size: 1.4em;
-    }
-    .minicontent{
-        border-top: 3px solid #fff ;
-        border-bottom: 3px solid #fff ;
-    }
-    .thumbs{
-       border-top: 4px  dashed#76c476;
-       border-bottom: 4px dashed #76c476;
-   }
-   .mini{
-    margin: 0 2px;
-    padding: 3px 0 ;
-   }
-   .galeria {
-    padding: 10px;
-    grid-template-columns: repeat(auto-fill,minmax(25%, 1fr));
-    grid-gap: 15px;
-   }
-   .derechos , 
-   .derechos a {
-       font-size: 1em;
-       line-height: .9em;
-   }
-  }
-  /* *******************641*********************** */
-  @media screen and (max-width:641px){
-    .derechos p {
-        font-size: 1em;
-        line-height: 1.3em;
-    }
-      
-  }
-
-  /* *******************421*********************** */
-  @media screen and (max-width:421px){
-    .derechos p {
-        font-size: .6em;
-        line-height: 1.3em;
-    }
-    .derechos a{
-        font-size: 1em;
-    }
-  }
-
-  /* **************Pantallas Grandes********************* */
-  @media screen and (min-width:1440px){
-    .descripcion p{
-        font-size: 1.8em;
-    }
-}
-/* ********2440************** */
-@media screen and (min-width:2440px){
-    .descripcion p{
-        font-size: 3em;
-    }
-    .guia {
-     height: 80px;
-    }
-     .guia h2 {
-     font-size: 4.8em;
+        margin: 5px;
+        font-size: 2.2em;
+        
+    } 
+    .guia h2{
+        font-size: 4em;
     }
     nav{
-      border-bottom: 12px solid #a40ea3;
+        border-bottom: 6px solid #a40ea3; 
+    }
+    nav ul li {
+        margin: 0 4em;
     }
     nav ul li a {
-        font-size: 5.5em;
+        font-size: 4em;
     }
     .minicontent{
-        border-top: 12px solid #fff ;
-        border-bottom: 12px solid #fff ;
+        border-top: 6px solid #fff ;
+        border-bottom: 6px solid #fff ;
     }
     .thumbs{
-        border-top: 11px  dashed#76c476;
-        border-bottom: 11px dashed #76c476;
+        border-top: 6px  dashed#76c476;
+        border-bottom: 6px dashed #76c476;
     }
     .mini{
-         width: 150px;
-         height: 150px;
-         margin: 0 10px;
-         padding: 6px 0 ;
-    }
-    .galeria {
-        grid-template-columns: repeat(auto-fill,minmax(20%, 1fr));
-        grid-gap: 40px;
+        width: 100px;
+        height: 100px;
+        padding: 5px 0 ;
+   }
+   .galeria {
+    padding: 20px;
+    padding-bottom:  50px;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
     }
     .card{
-        margin-bottom: 7em;     
-       }
+        margin-bottom:  5em;    
+    }
     .name{
-        font-size: 4.5em;
-        line-height: 1.8em;
-        letter-spacing: 4px;
-    }
-    .derechos p  {
-        font-size: 3.6em;
-        line-height: 1.7em;
-    }
-}
-/* *************Mediasquerys individual*************************************************** */
-@media screen and (max-width:961px){
-  
-    .galeria-personal{
-        padding: 5px 10px;
-        padding-bottom: 30px;
-        grid-template-columns: repeat(auto-fill,minmax(20%,1fr )) ;
-    }
-    .foto{
-        height:170PX;
-    }
-}
-/* ***********701px************************ */
-@media screen and (max-width:701px){
-    .data-title p , 
-    .data-resp p , 
-    .whats-logo {
-    margin: 15px ;
-    font-size: 1.5em;
-}
-.descripcion-personal h3{
-    font-size: 3.3em;
-}
-.descripcion-personal p{
-    font-size: 1.5em;
-    letter-spacing: 1px;
-}
-    .galeria-personal{
-        grid-template-columns: repeat(auto-fill,minmax(25%,1fr)) ;
-    }
-}
- 
-.cerrar{
-    font-size: 2.3em;
-    top: 10px;
-    left: 10px;
- }
-/* ***************571px************************ */
-@media screen and (max-width:571px){
-    .container{
-         display:block ;
-    }
-    .data{
-        margin: 0 auto;
-        display:flex;
-    }
-    .data-title p , 
-    .data-resp p , 
-    .whats-logo {
-        margin: 10px ;
-        font-size: 1.6em;
-        font-weight: 500;
+        font-size:  2.5em;
         letter-spacing: 1.5px;
+        border-radius: 10px ;
     }
-    .vertical{
+    .derechos p {
+        font-size: 2em;
+        line-height: 1.6em;
+    }
+}
+/* ***  *****  1280 *****   ******* *******************************/
+
+/* ***  *****  1254 por defecto de mi compu *****   ******* *******************************/
+/* **********  1024 *************** *******************************/
+
+/* **********  768  *************** *******************************/
+@media screen and (max-width:769px){
+    .descripcion p{
+        margin: 2px 0;
+        font-size: 1.2em;
+    }
+    .guia h2{
+        font-size: 2.4em;
+        letter-spacing: 2px;
+    }
+    nav ul li a {
+        font-size: 2.2em;
+        line-height: 1.4em;
+    }
+    .galeria {
+    padding: 15px;
+    grid-template-columns: repeat(auto-fill,minmax(15%, 1fr));
+    grid-gap: 15px;
+    }
+    .name{
+        font-size: 1.2em;
+        line-height: 1.8em;
+    }
+    .derechos p {
+        font-size: 1.2em;
+    }
+}
+/* ***  *****  540  *****   ******* *******************************/
+@media screen and ( max-width:541px){
+    .descripcion p{
+        margin: 0 0;
+        font-size: 1.2em;
+    }
+    .descripcion p:nth-child(4),
+    .descripcion p:nth-child(5){
         display: none;
     }
-    .descripcion-personal{
-        padding: 0px;
+    .guia h2{
+        font-size: 2em;
+    }
+    nav{
+        border-bottom: 4px solid #a40ea3; 
+    }
+    nav ul li a {
+        font-size: 2em;
+    }
+    .minicontent{
+        border-top: 4px solid #fff ;
+        border-bottom: 4px solid #fff ;
+        background-color: #d51e92;
+    }
+    .thumbs{
+       border-top: 3px  dashed#76c476;
+       border-bottom: 3px dashed #76c476;
+   }
+   .mini{
+        width: 50px;
+        height: 50px;
+        margin: 0 2px;
+        padding: 2px 0 ;
+   }
+    .galeria {
+    padding: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    }
+ 
+    .derechos p {
+        font-size: 1em;
+    }
+}
+/* **********  425  *************** *******************************/
+.descripcion p{
+    margin: 0 0;
+    font-size: 1em;
+}
+/* ***  *****  414  *****   ******* *******************************/
+@media screen and (max-width:415px){
+    .descripcion p{
+        margin: 0 0;
+        font-size: 1em;
+    }
+    .guia h2{
+        font-size: 1.6em;
+    }
+    nav ul li {
+        margin: 0 1em;
+    }
+    nav ul li a {
+        font-size: 1.5em;
+    }
+    .mini{
+        width: 40px;
+        height: 40px;
+        margin: 0 2px;
+        padding: 2px 0 ;
+    }
+    .galeria {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .derechos p {
+        font-size: .8em;
+    }
+}
+/* ***  *****  411  *****   ******* *******************************/
+/* ***  *****  388  *****   ******* *******************************/
+@media screen and (max-width:388px) {
+    .descripcion p {
+        margin: 0 0;
+        font-size: .9em;
+    }
+}
+/* ***  *****  360  *****   ******* *******************************/
+@media screen and (max-width:361px){
+    .main{
         width: 100%;
-        text-align: unset;
     }
-    .descripcion-personal h3{
+    .guia h2{
+        font-size: 1.4  em;
+    }
+}
+/* ***  *****  328  *****   ******* *******************************/
+@media screen and (max-width:329px){
+    .descripcion p {
+        margin: 0 0;
+    }
+    .descripcion p:nth-child(6){
+        display: none;
+    }
+    .guia h2{
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+    .galeria {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+/* ***  *****  284  *****   ******* */
+@media screen and (max-width:285px){
+    .descripcion p:nth-child(3){
+        display: none;
+    }
+    .galeria {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/* ***  *****  235  *****   ******* */
+@media screen and (max-width:236px){
+    nav ul li {
+        margin: 0 .5em;
+    }
+    nav ul li a {
+        font-size: 1.2em;
+    }
+   .thumbs .mini:nth-child(even){
+       display: none;
+   }
+   .derechos p {
+    font-size: .7em;
+   }
+}
+
+/* **********  2560 *************** */
+@media screen and (min-width:2560px){
+    .descripcion p{
+        margin: 5px;
+        font-size: 4.2em;
+    }
+
+    .guia h2{
+        font-size: 10em;
+        letter-spacing: 5px;
+    }
+    nav{
+        border-bottom: 15px solid #a40ea3; 
+    }
+    nav ul li {
+        margin: 0 10em;
+    }
+    nav ul li a {
+        font-size: 8em;
+    }
+    .minicontent{
+        border-top: 15px solid #fff ;
+        border-bottom: 15px solid #fff ;
+    }
+    .thumbs{
+        border-top: 13px  dashed#76c476;
+        border-bottom: 13px dashed #76c476;
+    }
+    .mini{
+        width: 200px;
+        height: 200px;
+        padding: 10px 0 ;
+   }
+   .galeria {
+    padding: 40px;
+    padding-bottom: 130px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    }
+    .card{
+        margin-bottom:  10em;    
+        height: auto;
+    }
+    .card img{
+        border-radius: 20px;
+    }
+    .name{
+        font-size:  5em;
+        letter-spacing: 1.2px;
+        border-radius: 20px ;
+    }
+    .derechos p {
         font-size: 4em;
-        text-decoration: underline;
-    }
-    .descripcion-personal p{
-        font-size: 1.6em;
-        margin: 0 20px;
-    }
-    .whats-logo img{
-        width: 80px;
-    }
-    .fa-circle-chevron-up{
-        margin-right: .5em;
-        color: red;
-        font-size: 1.6em;
-    }
-    .foto{
-        height:165PX;
+        line-height:  2em;
     }
 }
-    .previous{
-        left: 5%;
-    }
-    .next{
-        right: 5%;
-    }
-/* *******************421px*************************** */
-
-@media screen and (max-width:421px){
-    .data-title p , 
-    .data-resp p , 
-    .whats-logo {
-        margin: 10px ;
-        font-size: 1.4em;
-        letter-spacing: .8px;
-    }
-
-    .descripcion-personal h3{
-        font-size: 3.5em;
-    }
-    .descripcion-personal p{
-        font-size: 1.4em;
-    }
-    .whats-logo img{
-        width: 70px;
-    }
-    .fa-circle-chevron-up{
-         font-size: 1.4em;
-    }
-    .galeria-personal{
-        padding: 2.5px 5px;
-        padding-bottom: 30px;
-        grid-template-columns: repeat(auto-fill,minmax(35%,1fr )) ;
-    }
-    /* *************371px******************* */
-    @media screen and (max-width:371px){
-        .close,.previous,.next{
-            font-size: 2em;
-        }
-        .previous{
-            left: 0;
-        }
-        .next{
-            right:0 ;
-        }
-    }
-    /* *************321px******************* */
-    @media screen and (max-width:321px){
-    .data-title p , 
-    .data-resp p , 
-    .whats-logo {
-        margin: 10px ;
-        font-size: 1.1em;
-        letter-spacing: 1;
-    }
-
-    .descripcion-personal h3{
-        font-size: 3em;
-    }
-    .descripcion-personal p{
-        font-size: 1.1em;
-    }
-    .whats-logo img{
-        width: 60px;
-    }
- 
-    .galeria-personal{
-        padding: 1.5px 2.5px;
-        grid-template-columns: repeat(auto-fill,minmax(40%,1fr )) ;
-    }
-    .foto{
-        height:140PX;
-    }
- }
-}
-/* **************241***************** */
- 
- 
