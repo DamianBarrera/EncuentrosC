@@ -28,6 +28,7 @@ body{
  }
  .descripcion {
      width: 100%;
+     height: auto;
      background-color: #201e24;
      display: flex;
      flex-wrap: wrap;

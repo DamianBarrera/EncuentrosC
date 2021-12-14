@@ -1,9 +1,28 @@
+/* ****************900*****Individual************************ */
+@media screen and (max-width:901px){
+   
+    .data-resp {
+        width: 180px;
+    }
+    .data-title p,
+    .data-resp p {
+        font-size: 1.5em;
+         
+    }
+    .galeria-personal{
+        padding: 20px 30px ;
+  
+    }
+    .fa-circle-chevron-up{
+        margin-right: 1em;
+        font-size: 1.5em;
+    }
+}
 
  /* **********  768  *************** *******************************/
 @media screen and (max-width:769px){    
     .descripcion p{
-        margin: 2px 0;
-        font-size: 1.2em;
+        font-size: 1em;    
     }
     .guia h2{
         font-size: 2.4em;
@@ -25,8 +44,28 @@
     .derechos p {
         font-size: 1.2em;
     }
+    .data-resp {
+        width: 120px;
+    }
+    .descripcion-personal h3{
+        font-size: 3.5em;
+    }
+    .descripcion-personal p {
+        font-size: 1.8em;
+    }
+    .gallery{
+        padding: 5px;
+    }
+    .galeria-personal{
+        padding: 0px 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(15%,1fr )) ;
+        grid-gap: 15px;
+    }
+      
 }
 
+ 
 /* ***  *****  540  *****   ******* *******************************/
 @media screen and ( max-width:541px){
     .descripcion p{
@@ -39,12 +78,14 @@
     }
     .guia h2{
         font-size: 2em;
+        letter-spacing: 1px;
     }
     nav{
         border-bottom: 4px solid #a40ea3; 
     }
     nav ul li a {
         font-size: 2em;
+        letter-spacing: 2px;
     }
     .minicontent{
         border-top: 4px solid #fff ;
@@ -70,11 +111,66 @@
     .derechos p {
         font-size: 1em;
     }
+
+    .data-title p,
+    .data-resp p{
+        margin: 15px 5px ;
+        font-size: 1.2em;
+    }
+
+    .data-resp {
+        width: 110px;
+    }
+    .vertical{
+        margin: 0 5px ;
+    }
+    .descripcion-personal h3{
+        font-size: 3em;
+    }
+    .descripcion-personal p {
+        font-size: 1.5em;
+    }
+    .gallery{
+        padding: 5px;
+    }
+    .galeria-personal{
+        padding: 0px 20px;
+ 
+        grid-template-columns: repeat(4,1fr ) ;
+        grid-gap: 10px;
+    }
+ 
+
+}
+/* **********  500  *************** *******************************/
+@media screen and (max-width:500px){
+    .container{
+         display: block;   
+    }
+    .data{
+        justify-content: center;
+        padding:5px 20px;
+    }
+    .data-resp {
+        display: block;
+        width: 100%;
+    }
+   
+    .data-title p,
+    .data-resp p{
+        margin: 15px 5px ;
+        font-size: 1.5em;
+    }
+    .galeria-personal{
+        padding: 10px;
+    }
 }
 /* **********  425  *************** *******************************/
-.descripcion p{
-    margin: 0 0;
-    font-size: 1em;
+@media screen and (max-width:426px){
+    .descripcion p{
+        margin: 0 0;
+        font-size: 1em;
+    }
 }
 /* ***  *****  414  *****   ******* *******************************/
 @media screen and (max-width:415px){
@@ -101,6 +197,16 @@
     }
     .derechos p {
         font-size: .8em;
+    }
+    .galeria-personal{
+        grid-template-columns: repeat(3,1fr ) ;
+        grid-gap: 10px;
+    }
+    .fa-circle-chevron-up{
+        font-size: 1.2em;
+    }
+    .whats-logo img{
+        width: 80px;
     }
 }
 /* ***  *****  388  *****   ******* *******************************/
@@ -131,9 +237,6 @@
         font-size: 1.2em;
         letter-spacing: 1px;
     }
-    .galeria {
-        grid-template-columns: repeat(3,1fr);
-    }
 }
 
 /* ***  *****  284  *****   ******* */
@@ -143,6 +246,11 @@
     }
     .galeria {
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .galeria-personal{
+        grid-template-columns: repeat(2,1fr ) ;
+        grid-gap: 10px;
     }
 }
 /* ***  *****  235  *****   ******* */
@@ -159,4 +267,131 @@
    .derechos p {
     font-size: .7em;
    }
+}
+
+/* **************1440************************** */
+@media screen and (min-width:1440px){
+    .descripcion p {
+        margin: 2px 5px;
+        font-size: 2em;
+    }
+    .guia h2 {
+     font-size: 3.2em;
+    }
+    nav ul li a {
+     font-size: 3em;
+    }
+
+    .data{
+        margin: 0 20px;
+    }
+
+    .data-title p , 
+    .data-resp p , 
+    .whats-logo {
+    margin: 15px ;
+    font-size: 2.2em;
+    }
+    .descripcion-personal h3{
+        margin-bottom: 20px ;
+        font-size: 4.8em;
+    }
+    .descripcion-personal p{
+        font-size: 2.2em;
+    }
+    .whats-logo img{
+        width: 120px;
+    }
+}
+
+/* **************1920************************** */
+@media screen and (min-width:1920px){
+    .descripcion p {
+        font-size: 3em;
+    }
+    .guia h2 {
+     font-size: 4.2em;
+    }
+    nav ul li a {
+     font-size: 3.8em;
+    }
+
+    .data{
+        margin: 10px 40px;
+        width: 900px;
+    }
+
+    .data-title p , 
+    .data-resp p , 
+    .whats-logo {
+    margin: 25px ;
+    font-size: 3.2em;
+    }
+    .descripcion-personal h3{
+        margin-bottom: 20px ;
+        font-size: 4.8em;
+    }
+    .descripcion-personal p{
+        font-size: 3.4em;
+    }
+    .whats-logo img{
+        width: 120px;
+    }
+    .galeria-personal{
+        grid-template-columns: repeat(5,1fr ) ;
+        grid-gap: 30px;
+    }
+    .whats-logo img{
+        width: 180px;
+    }
+    .derechos p{
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
+}
+/* **************2560************************** */
+@media screen and (min-width:2560px){
+    .descripcion p {
+        font-size: 4em;
+    }
+    .guia h2 {
+     font-size: 8em;
+    }
+    nav ul li a {
+     font-size: 8.8em;
+    }
+
+    .data{
+        margin: 10px 40px;
+        width: 1200px;
+    }
+
+    .data-title p , 
+    .data-resp p , 
+    .whats-logo {
+    margin: 45px 25px ;
+    font-size: 4.2em;
+    }
+    .descripcion-personal h3{
+        margin-bottom: 20px ;
+        font-size: 10em;
+         
+    }
+    .descripcion-personal p{
+        font-size: 4.8em;
+    }
+    .whats-logo img{
+        width: 150px;
+    }
+    .galeria-personal{
+        grid-template-columns: repeat(6,1fr ) ;
+        grid-gap: 30px;
+    }
+    .whats-logo img{
+        width: 180px;
+    }
+    .derechos p{
+        font-size: 2.2em;
+        line-height: 1.2em;
+    }
 }
