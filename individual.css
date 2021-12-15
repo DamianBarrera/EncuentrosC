@@ -33,8 +33,9 @@
     width: 100%;
 }
 .descripcion-personal {
-   text-align: center;
-
+    margin: 0 auto;   
+    width: 60%;
+    text-align: center;
 }
 .descripcion-personal h3{
     margin-bottom: 15px ;
@@ -97,7 +98,7 @@
     grid-gap: 25px;
 }
 .foto{
-    height: auto;
+    height: 100%;
     cursor: pointer;
 }
 .foto:hover{
@@ -123,13 +124,13 @@
 }
 /* ****************Modal de la imagen************************** */
  .modal-foto img{
-     
+    width: 100%;
     height: 100%;
     object-fit:contain;
 }
 .modal-foto{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     text-align: center;
     background-color: rgba(20, 20, 20, 0.986);
     position: fixed;
@@ -144,7 +145,9 @@
      position: relative;   
   }
 
-  .close,.previous,.next{
+  .close,
+  .previous,
+  .next{
     width: 1.5em;
     height: 1.5em;
     font-size: 2.5em;

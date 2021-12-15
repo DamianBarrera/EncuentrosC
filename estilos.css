@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     font-size: 10px;
+    min-width: 230px;
 }
  img{
      width: 100%;
@@ -23,7 +24,6 @@ body{
  /* ****************************** */
  .main{
      width: 85%;
-     min-width: 230px;
      margin: auto;
  }
  .descripcion {
@@ -120,13 +120,13 @@ body{
     padding-bottom: 30px;
     background: #000;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(15%, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 25px;
 }
 
 .card{
     margin-bottom: 2.4em;    
-    height: auto;
+    height: 90% ;
    }
    .card img {
     width: 100%;

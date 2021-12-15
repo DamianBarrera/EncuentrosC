@@ -10,8 +10,8 @@
          
     }
     .galeria-personal{
+        margin-bottom: 50px;
         padding: 20px 30px ;
-  
     }
     .fa-circle-chevron-up{
         margin-right: 1em;
@@ -144,22 +144,30 @@
 }
 /* **********  500  *************** *******************************/
 @media screen and (max-width:500px){
-    .container{
-         display: block;   
-    }
-    .data{
-        justify-content: center;
-        padding:5px 20px;
-    }
-    .data-resp {
-        display: block;
+    .main{
         width: 100%;
     }
-   
+    .container{
+         display: block;   
+        }
+        .data{
+            justify-content: center;
+            padding:5px 20px;
+        }
+        .data-resp {
+            display: block;
+            width: 100%;
+    }
+   .vertical{
+       display: none;
+   }
     .data-title p,
     .data-resp p{
         margin: 15px 5px ;
         font-size: 1.5em;
+    }
+    .descripcion-personal {
+        width: 90%;
     }
     .galeria-personal{
         padding: 10px;
@@ -218,9 +226,6 @@
 }
 /* ***  *****  360  *****   ******* *******************************/
 @media screen and (max-width:361px){
-    .main{
-        width: 100%;
-    }
     .guia h2{
         font-size: 1.4  em;
     }
