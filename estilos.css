@@ -20,7 +20,15 @@ body{
      text-decoration: none;
      color: red;
  }
- 
+ body::-webkit-scrollbar{
+     width: 7px;
+     background-image: linear-gradient(#a40ea3,#442255);
+    }
+    
+    body::-webkit-scrollbar-thumb{
+      border-radius: 10px;
+      background-image:linear-gradient(#442255, #a40ea3) ;
+  }
  /* ****************************** */
  .main{
      width: 85%;
