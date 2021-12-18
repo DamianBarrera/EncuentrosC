@@ -7,7 +7,9 @@
     list-style: none;
 }
 body{
-    background-image: url("fondo_rojo.png");
+    /* background-image: url("fondo_rojo.png"); */
+    /* background-image: url("segundoLogo.png"); */
+    background-image: linear-gradient(#640026,#620025);
     background-repeat: no-repeat;
     background-size:cover;
     font-size: 10px;
